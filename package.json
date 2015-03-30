@@ -1,0 +1,26 @@
+{
+  "name": "base-react-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "bundle.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rogerfranklin2/base-react-app.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rogerfranklin2/base-react-app/issues"
+  },
+  "homepage": "https://github.com/rogerfranklin2/base-react-app",
+  "devDependencies": {
+    "babel-core": "^4.7.16",
+    "babel-loader": "^4.2.0",
+    "node-sass": "^3.0.0-pre",
+    "sass-loader": "^1.0.0",
+    "webpack": "^1.7.3"
+  }
+}
