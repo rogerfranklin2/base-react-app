@@ -44,9 +44,19 @@
 /* 0 */
 /***/ function(module, exports, __webpack_require__) {
 
-	let appName = "application1"
+	"use strict";
+
+	__webpack_require__(1);
+
+	var appName = "its ES6!";
 
 	console.log(appName);
+
+/***/ },
+/* 1 */
+/***/ function(module, exports, __webpack_require__) {
+
+	// removed by extract-text-webpack-plugin
 
 /***/ }
 /******/ ]);
