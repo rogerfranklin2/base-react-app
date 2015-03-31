@@ -8,7 +8,11 @@ module.exports = {
     module: {
       loaders: [
           { test: /\.jsx$/, exclude: /node_modules/, loader: 'babel-loader'},
-          { test: /\.css$/, loader: ExtractTextPlugin.extract("style-loader", "css-loader") }
+          { test: /\.sass/, loader: ExtractTextPlugin.extract(
+                    // activate source maps via loader query
+                    'css?sourceMap!' +
+                    'sass?indentedSyntax'
+                ) }
       ]
     },
     plugins: [

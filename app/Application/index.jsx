@@ -1,4 +1,4 @@
-require("./style.css");
+require("./style.sass");
 
 let appName = "its ES6!"
 
